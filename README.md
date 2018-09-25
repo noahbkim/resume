@@ -1,2 +1,1 @@
-# resume
-An attempt at my own printable pure HTML/CSS resume
+[Please hire me!](https://noahb.kim/resume/)
