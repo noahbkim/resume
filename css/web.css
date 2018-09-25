@@ -1,0 +1,73 @@
+html {
+  background-color: gray;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  margin: 1em auto;
+  padding: 4em;
+  background-color: white;
+  font-size: 0.95em;
+  max-width: 780px;
+  min-width: 780px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 0.4em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+hr {
+  margin: 0.5em 0;
+}
+
+p, ul {
+  margin-top: 0.25em;
+  margin-bottom: 0.4em;
+}
+
+ul {
+  padding-left: 2em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+ul.plain.pad {
+  padding-left: 1em;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.1em;
+}
+
+.row > div + div {
+  margin-left: 2em;
+}
+
+#contact, #info {
+  margin-bottom: 0.2em;
+}
+
+.link {
+  padding-left: 0.75em;
+}
+
+.year {
+  padding-right: 0.3em;
+}
+
+.clip {
+  margin-bottom: 0;
+}

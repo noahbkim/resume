@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,500");
+
+html {
+  background-color: gray;
+}
+
+body {
+  width: 3.5in;
+  height: 2in;
+  margin: 1rem auto;
+  background-color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+}
+
+.vcard {
+  width: 2in;
+  height: 2in;
+  padding: 6pt;
+  box-sizing: border-box;
+}
+
+#about {
+
+}
+
+h1 {
+  font-size: 15pt;
+  font-weight: 300;
+  margin-top: 20pt;
+  margin-bottom: 6pt;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 6pt;
+  line-height: 1.3;
+  font-size: 10.5pt;
+}
