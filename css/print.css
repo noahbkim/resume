@@ -42,6 +42,8 @@ ul.plain.pad {
   padding-left: 10pt;
 }
 
+.gray { color: gray; }
+
 .icon {
   width: 13pt;
   height: 13pt;
