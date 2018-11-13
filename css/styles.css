@@ -48,6 +48,7 @@ ul.plain {
 .gray { color: #AAA; }
 .inline > * { display: inline-block; }
 .right { float: right; }
+.invisible { visibility: hidden; }
 
 .row {
   display: flex;
