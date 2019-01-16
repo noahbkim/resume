@@ -50,6 +50,11 @@ ul.plain {
 .right { float: right; }
 .invisible { visibility: hidden; }
 
+.bump {
+  display: block;
+  margin-top: 0.5em;
+}
+
 .row {
   display: flex;
   flex-direction: row;
