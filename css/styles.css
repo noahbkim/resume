@@ -12,10 +12,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-h2 {
-  color: #AAA;
-}
-
 h3 {
   font-weight: 500;
 }
@@ -45,7 +41,6 @@ ul.plain {
 .medium { font-weight: 400; }
 .heavy { font-weight: 500; }
 .italic { font-style: italic; }
-.gray { color: #AAA; }
 .inline > * { display: inline-block; }
 .right { float: right; }
 .invisible { visibility: hidden; }
@@ -55,9 +50,18 @@ ul.plain {
   margin-top: 0.5em;
 }
 
+.subtitle {
+  display: block;
+  margin-top: 0.1em;
+}
+
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.row > * {
+  flex-grow: 1;
 }
 
 #about {

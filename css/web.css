@@ -5,11 +5,11 @@ html {
 
 body {
   margin: 1em auto;
-  padding: 4em;
+  padding: 2em;
   background-color: white;
-  font-size: 0.95em;
-  max-width: 780px;
-  min-width: 780px;
+  max-width: 8.5in;
+  min-width: 8.5in;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -17,8 +17,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-top: 0.4em;
+  color: #555;
 }
 
 h3 {
@@ -52,10 +53,6 @@ ul.plain.pad {
   margin-bottom: -0.1em;
 }
 
-.row > div + div {
-  margin-left: 2em;
-}
-
 #contact, #info {
   margin-bottom: 0.2em;
 }
@@ -71,3 +68,5 @@ ul.plain.pad {
 .clip {
   margin-bottom: 0;
 }
+
+.gray { color: #555; }

@@ -1,6 +1,6 @@
 body {
   width: 8.5in;
-  padding: 0.7in 0.8in 0 0.8in;
+  padding: 0.15in 0.25in 0 0.25in;
   margin: 0;
   box-sizing: border-box;
 }
@@ -13,8 +13,9 @@ h1 {
 }
 
 h2 {
-  font-size: 17pt;
-  margin-top: 5pt;
+  font-size: 14pt;
+  margin-top: 4pt;
+  color: #666;
 }
 
 h3 {
@@ -31,7 +32,7 @@ p, ul {
 }
 
 ul {
-  padding-left: 25pt;
+  padding-left: 20pt;
 }
 
 li + li {
@@ -42,16 +43,12 @@ ul.plain.pad {
   padding-left: 10pt;
 }
 
-.gray { color: gray; }
+.gray { color: #666; }
 
 .icon {
   width: 13pt;
   height: 13pt;
   margin-bottom: -2pt;
-}
-
-.row > div + div {
-  margin-left: 8pt;
 }
 
 .schools li {

@@ -48,20 +48,18 @@
       <div class="row schools">
         <div id="usc">
           <h3>University of Southern California</h3>
-          <span>B.S. in Computer Science, Expected 2022</span>
+          <span class="subtitle">B.S. in Computer Science, Expected 2022 (3.69)</span>
           <ul>
-            <li>Discrete Methods, Software Development, Tech Startup</li>
-            <li>Calculus III, Topology, Linear Algebra, Probability</li>
-            <li>Head TA for CSCI 104, 20-29 TA's, 200-300+ students</li>
+            <li>Software, Systems, OS, Compilers, Networking, Professional C++</li>
+            <li>Topology, Linear, Differential, Probability, Algorithms, Functional</li>
           </ul>
         </div>
         <div id="mbhs">
           <h3>Montgomery Blair High School</h3>
-          <span>Math and Science Magnet Program, Graduated 2018</span>
+          <span class="subtitle">Math and Science Magnet Program, Graduated 2018</span>
           <ul>
-            <li>Software Design, AI in LISP, Computer Graphics</li>
-            <li>Calculus III, Differential Equation</li>
-            <li>Complex Analysis, Mathematical Logic</li>
+            <li>Software Design, AI in LISP, Graphics, Formal Logic, Quantum</li>
+            <li>Mathematical Physics, Differential, Complex, Linear, Calculus</li>
           </ul>
         </div>
       </div>
@@ -75,47 +73,62 @@
           <div class="inline">
             <ul class="heavy">
               <li>Python</li>
+              <li>C/C++</li>
+              <li>Rust</li>
+            </ul>
+            <ul class="heavy">
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML/CSS</li>
             </ul>
             <ul>
               <li class="heavy">Swift</li>
-              <li class="heavy">TypeScript</li>
-              <li class="heavy">C/C++</li>
-            </ul>
-            <ul>
               <li>C#</li>
               <li>Java</li>
-              <li>Rust</li>
             </ul>
           </div>
         </div>
         <div id="frameworks">
-          <h3>Frameworks</h3>
+          <h3>Ecosystems</h3>
           <div class="inline">
             <ul>
               <li class="heavy">Django</li>
+              <li class="heavy">Flask</li>
+              <li class="heavy">Tornado</li>
+            </ul>
+            <ul>
+              <li class="heavy">Vue</li>
               <li class="heavy">Angular</li>
               <li class="heavy">Electron</li>
             </ul>
             <ul>
-              <li class="heavy">Flask</li>
-              <li class="heavy">Vue</li>
-              <li class="heavy">Cocoa</li>
-            </ul>
-            <ul>
-              <li>Unreal</li>
               <li>Numpy</li>
-              <li>Unreal</li>
+              <li>Scikit</li>
+              <li>d3</li>
             </ul>
           </div>
         </div>
         <div id="tools">
-          <h3>General</h3>
+          <h3>Software</h3>
+          <div class="inline">
+            <ul>
+              <li>Timescale</li>
+              <li>Elastic</li>
+              <li>Mongo</li>
+            </ul>
+            <ul>
+              <li>Docker</li>
+              <li>RabbitMQ</li>
+              <li>TeamCity</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h3>Conceptual</h3>
           <ul>
-            <li>Version control</li>
-            <li>Stack deployment</li>
-            <li>Kanban, Agile</li>
+            <li>Grammars</li>
+            <li>Distributed</li>
+            <li>REST</li>
           </ul>
         </div>
       </div>
@@ -123,6 +136,36 @@
     <div id="experience">
       <h2>Experience</h2>
       <hr>
+      <h3>
+        Susquehanna International Group
+        <span class="light">| Software Developer Intern</span>
+        <span class="right light gray">Summer 2021</span>
+      </h3>
+      <ul>
+        <li>
+          Developed a full-stack solution for viewing firm-wide order flow across multiple formats, representations, and databases.
+          Designed an extensible, module-based backend architecture with separate configuration, runtime, and endpoint handler stages.
+          Provided deeply configurable frontend components that can be reused across backends.
+        </li>
+        <li>
+          Created a general-purpose, SQL-like query language translators for TimescaleDB, MongoDB, and ElasticSearch.
+          Built a query editor with contextual syntax highlighting, backend-specific autocompletion, and transparent error reporting.
+        </li>
+      </ul>
+      <h3>
+        Microsoft
+        <span class="light">| Software Developer Intern</span>
+        <span class="right light gray">Summer 2020</span>
+      </h3>
+      <ul>
+        <li>
+          Implemented a code action framework for the Blazor tooling environment for Visual Studio and Visual Studio Code.
+          Wrote several refactoring code actions for Blazor components using the framework.
+        </li>
+        <li>
+          Developed additional backend refactoring functionality for Blazor components.
+        </li>
+      </ul>
       <h3>
         Sierra Nevada Corporation
         <span class="light">| Full Stack Software Developer</span>
@@ -132,7 +175,6 @@
         <li>
           Led the design and development of CAWP, a software vulnerability aggregation tool packaged with features
           including an independent vulnerability knowledge-base and a CSV/PDF report generator.
-
         </li>
         <li>
           Developed an efficient AWS data-lake visualization tool for use in commercial applications with high throughput.
@@ -150,17 +192,13 @@
           framework intended to advance big-data research in the scientific community.
         </li>
         <li>
-          Improved the entity model to support generalized access to plural attributes with individual properties.
-        </li>
-        <li>
-          Developed an intuitive client package for querying knowledge servers featuring improvements such as
-          multi-threaded request pooling and object-oriented entity wrapping.
+          Developed a client package for querying knowledge servers with multi-threaded request pooling and object-oriented entity wrapping.
         </li>
       </ul>
       <h3>
         Cipher Tech Solutions
         <span class="light">| Intern Software Developer</span>
-        <span class="right light gray">Summers 2015, 2016</span>
+        <span class="right light gray">Summers of 2015 and 2016</span>
       </h3>
       <ul>
         <li>
@@ -174,53 +212,54 @@
       </ul>
     </div>
     <div id="research">
-      <h2>Research</h2>
+      <h2>Research & Academics</h2>
       <hr>
       <h3>
-        USC Image Understanding Lab
-        <span class="light">| Undergraduate Researcher</span>
-        <span class="right light gray">August 2018 to Present</span>
+        USC CSCI 104
+        <span class="light">| Head Teaching Assistant</span>
+        <span class="right light gray">Spring 2019 to Present</span>
       </h3>
-      <p>
-        Working with <a href="http://geon.usc.edu/~biederman/" target="_blank">Dr. Irving Biederman</a> and several
-        undergraduate researchers to study how we process and recognize images, particularly faces. Design a centralized
-        subject testing suite and an improved Gabor-based face recognition algorithm.
-      </p>
+      <ul>
+        <li>
+          Leading 15-30 course staff for 150-300+ students in our C++ algorithms & data structures core major requirement.
+        </li>
+        <li>
+          Developing <a href="https://github.com/curriculagg/curricula-grade">Curricula</a>, a scalable framework
+          that facilitates modular assignment composition, sophisticated automated grading patterns, and submission report generation.
+        </li>
+        <li>
+          Developing Curricula Web, which features a submission system with asynchronous validation and autograding, office hours ticketing with interactions and analytics, and a modernized content distribution platform that improves student QOL.
+        </li>
+      </ul>
       <h3>
         ADS Simplex Project
         <span class="light">| Intern Researcher</span>
         <span class="right light gray">Summer 2017</span>
       </h3>
-      <p>
-        Contributed to research by <a href="http://www.drmichaelrobinson.net" class="_blank">Dr. Michael Robinson</a>
-        at American University on the application of simplicial homology to big data analysis. The goal of the project
-        was to develop a simplicial model that could predict whether subjects were at risk of drug or alcohol abuse
-        based on data ranging from FMRI scans to patient and parent surveys.
-      </p>
+      <ul>
+        <li>
+          Contributed to research by <a href="http://www.drmichaelrobinson.net" class="_blank">Dr. Michael Robinson</a>
+          on the application of simplicial homology to big data analysis.
+        </li>
+        <li>
+          Worked toward developing a simplicial model that could predict whether subjects were at risk of
+          drug or alcohol abuse based on data ranging from FMRI scans to patient and parent surveys.
+        </li>
+      </ul>
     </div>
     <div id="achievements">
       <h2>Achievements</h2>
       <hr>
       <div class="row">
-        <div id="awards">
-          <h3>Awards</h3>
-          <div class="inline">
-            <ul class="plain clip">
-              <li><span class="year">2018</span> National Merit Honors Scholar</li>
-              <li><span class="year">2018</span> USC Presidential Scholarship</li>
-            </ul>
-            <ul class="plain pad clip">
-              <li><span class="year">2016</span> 1st Place MitreCTF HS Division</li>
-              <li><span class="year">2015</span> 3rd in State US CyberPatriot</li>
-            </ul>
-          </div>
-        </div>
-        <div id="societies">
-          <h3>Qualifications</h3>
-          <ul class="plain clip">
-            <li>Top Secret Clearance</li>
-          </ul>
-        </div>
+        <ul class="plain clip">
+          <li><span class="year">2018-22</span> National Merit Honors Scholar</li>
+        </ul>
+        <ul class="plain pad clip">
+          <li><span class="year">2018-22</span> USC Presidential Scholarship</li>
+        </ul>
+        <ul class="plain clip">
+          <li>Top Secret Clearance</li>
+        </ul>
       </div>
     </div>
   </body>
