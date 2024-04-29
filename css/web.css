@@ -4,11 +4,10 @@ html {
 }
 
 body {
-  margin: 1em auto;
-  padding: 2em;
+  margin: 1rem auto;
+  padding: 1.5rem;
   background-color: white;
-  max-width: 8.5in;
-  min-width: 8.5in;
+  width: 8.5in;
   box-sizing: border-box;
 }
 
@@ -17,17 +16,21 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4em;
-  margin-top: 0.4em;
-  color: #555;
+  font-size: 1em;
+  margin-top: 0.75em;
+  margin-bottom: 0;
 }
+
+/*.gray { color: #555; }*/
 
 h3 {
   font-size: 1.25em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 hr {
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 
 p, ul {
@@ -68,5 +71,3 @@ ul.plain.pad {
 .clip {
   margin-bottom: 0;
 }
-
-.gray { color: #555; }

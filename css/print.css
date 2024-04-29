@@ -1,7 +1,7 @@
 body {
-  width: 8.5in;
-  padding: 0.15in 0.25in 0 0.25in;
+  padding: 0;
   margin: 0;
+  width: 8.5in;
   box-sizing: border-box;
 }
 
@@ -13,13 +13,17 @@ h1 {
 }
 
 h2 {
-  font-size: 14pt;
-  margin-top: 4pt;
-  color: #666;
+  font-size: 10pt;
+  margin-top: 10pt;
+  margin-bottom: 0;
 }
 
+/*.gray { color: #666; }*/
+
 h3 {
-  font-size: 12pt;
+  font-size: 11pt;
+  margin-top: 5pt;
+  margin-bottom: 3pt;
 }
 
 hr {
@@ -28,7 +32,7 @@ hr {
 
 p, ul {
   margin-top: 3pt;
-  margin-bottom: 4pt;
+  margin-bottom: 0;
 }
 
 ul {
@@ -36,14 +40,12 @@ ul {
 }
 
 li + li {
-  margin-top: 2pt;
+  margin-top: 1pt;
 }
 
 ul.plain.pad {
   padding-left: 10pt;
 }
-
-.gray { color: #666; }
 
 .icon {
   width: 13pt;
@@ -65,8 +67,4 @@ ul.plain.pad {
 
 .year {
   padding-right: 4pt;
-}
-
-.clip {
-  margin-bottom: -20pt;
 }
